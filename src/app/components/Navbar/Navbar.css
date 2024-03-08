@@ -1,0 +1,47 @@
+nav{
+    background-color: #1a1a1a;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: sticky;
+    top: 0;
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    gap: 30px;
+}
+
+nav img{
+    height: 80px;
+    width: auto;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover{
+    color: rgb(255, 203, 14);
+}
+
+nav button{
+    background-color: rgb(255, 203, 14);
+    border: none;
+    outline: none;
+    cursor: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(17, 15, 15);
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+}
+
+nav button:hover{
+    background-color: #fff;
+}
