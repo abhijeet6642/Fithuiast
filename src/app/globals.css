@@ -12,7 +12,7 @@ body{
   color: white;
 }
 
-.mainhead{
+.mainhead1{
   -webkit-text-stroke: 1px var(--col1);
   color: transparent;
   font-family:'Times New Roman', Times, serif;

@@ -103,6 +103,9 @@ const HomeBanner2 = () => {
                   style={{
                     backgroundImage: `url(${item.imageUrl})`,
                   }}
+
+
+                  //if a use click on the chest card it will directly go the chest page
                   onClick={() => {
                     window.location.href = `/workout/${item.type}`
                   }}
